@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: admin
+    password: 111
+
+logging:
+  level:
+    root: warn
+    com.ichint.crm.platform.mapper: trace
